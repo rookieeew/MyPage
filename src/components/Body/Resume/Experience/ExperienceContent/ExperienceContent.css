@@ -1,0 +1,69 @@
+.experience-contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.experience-content {
+    background-color: #181b1e;
+    border-radius: 10px;
+    flex-direction: column;
+    width: 80%;
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+}
+
+p {
+    margin: unset;
+    padding: unset;
+}
+
+.experience-content-year {
+    margin-top: 5px;
+    width: 20%;
+    padding: 5px 4px;
+    /*margin-left: 5px;*/
+    text-align: center;
+    background-color: red;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #e9e9e9;
+}
+
+.experience-content-name {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #e9e9e9;
+}
+
+.project-link {
+    color: #2083e6;
+}
+
+.experience-content-college {
+    font-size: 16px;
+    font-weight: bolder;
+    color: #2083e6;
+    text-decoration: underline;
+}
+
+.experience-content-college:hover {
+    cursor: pointer;
+}
+
+.experience-content-college:hover, .project-link:hover {
+    color: #4898e8;
+}
+
+.experience-content-details {
+    margin-top: 5px;
+    font-size: 15px;
+    color: grey;
+    font-weight: bold;
+}

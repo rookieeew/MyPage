@@ -1,0 +1,157 @@
+.about {
+    background-color: #27292d;
+    color: #e9e9e9;
+    height: 800px;
+}
+
+.about-title {
+    position: relative;
+}
+
+.about-title h1 {
+    font-size: 45px;
+    padding-top: 130px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.about-title p {
+    opacity: 0.1;
+    font-size: 150px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 70px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+#add-line {
+    border-bottom: 3px solid #0A66C2;
+    padding-bottom: 2px;
+}
+
+.about-content {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#description {
+
+    width: 40%;
+}
+
+#info-form {
+    width: 20%;
+}
+
+#info-form ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#info-form li {
+    margin-bottom: 10px;
+}
+
+#info-form li:not(:last-child)::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    margin-top: 5px;
+}
+
+#info-form li:last-child{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+#description h2 {
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+#description p {
+    font-family: sans-serif;
+    color: #98999b;
+    font-weight: 550;
+}
+
+#description h2 span {
+    color: #0A66C2;
+}
+
+.key {
+    font-family: sans-serif;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 19px;
+}
+
+.value {
+    font-family: sans-serif;
+    color: #e9e9e9;
+    font-weight: bold;
+
+}
+
+/* CSS */
+#download-btn, #view-btn {
+    align-items: center;
+    background-color: #0A66C2;
+    /*background-color: transparent;*/
+    border: 1px;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    justify-content: space-between;
+}
+
+#download-btn:hover,
+#view-btn:hover {
+    background-color: #16437E;
+    color: #ffffff;
+}
+
+#download-btn:active,
+#view-btn:active {
+    /*background: #74c898;*/
+    background: #09223b;
+    color: rgb(255, 255, 255, .7);
+}
+
+#download-btn:disabled,
+#view-btn:disabled {
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .3);
+}

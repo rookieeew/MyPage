@@ -1,0 +1,5 @@
+.home {
+    height: 1300px;
+    background-image: url("/public/images/background/firstPage.jpg");
+    background-size: cover;
+}

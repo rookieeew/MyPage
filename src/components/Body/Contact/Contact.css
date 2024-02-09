@@ -1,0 +1,11 @@
+.contact {
+    height: 700px;
+    background-color:  #27292d;
+}
+
+.contact-content {
+    display: flex;
+    gap: 5px;
+    padding-top: 80px;
+    justify-content: space-around;
+}

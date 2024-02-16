@@ -35,7 +35,7 @@ function About() {
                         </li>
                         <li>
                             <a
-                               href={"https://drive.google.com/file/d/17dyjHdleVz15_PI7bpxCZwOJbNHm-Vzn/view?usp=sharing"}
+                               href={"https://drive.google.com/file/d/1kPWfAjT7VwqerBMtyXTqo6Lxkarp-fzS/view?usp=sharing"}
                                target={"_blank"}
                                rel={"noreferrer"}>
                                 <button id={"view-btn"}>
@@ -44,7 +44,7 @@ function About() {
                             </a>
 
                             <a
-                               href={"https://drive.google.com/file/d/17dyjHdleVz15_PI7bpxCZwOJbNHm-Vzn/view?usp=sharing"}
+                               href={"https://drive.google.com/file/d/1kPWfAjT7VwqerBMtyXTqo6Lxkarp-fzS/view?usp=sharing"}
                                download={"TongWuCV.pdf"}
                                target={"_blank"}
                                rel={"noreferrer"}>

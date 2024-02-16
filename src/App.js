@@ -8,20 +8,14 @@ import Contact from "./components/Body/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import {Route, Routes} from "react-router-dom";
 import WhatIDo from "./components/Body/WhatIDo/WhatIDo";
+import Chatbot from "./components/Chatbot/Chatbot";
 
 function App() {
     return (
         <div className={"App"}>
             <Header/>
-            {/*<Routes>*/}
-            {/*    <Route path={"home"} element={<Home/>}/>*/}
-            {/*    <Route path={"about"} element={<About/>}/>*/}
-            {/*    <Route path={"resume"} element={<Resume/>}/>*/}
-            {/*    <Route path={"contact"} element={<Contact/>}/>*/}
-            {/*</Routes>*/}
             <Home/>
             <About/>
-            {/*<WhatIDo/>*/}
             <Resume/>
             <Contact/>
             <Footer/>

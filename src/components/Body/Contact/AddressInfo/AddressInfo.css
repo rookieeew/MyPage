@@ -7,13 +7,13 @@
 }
 
 .address-title, .follow-me {
-    color: #e9e9e9;
+    color: var(--white);
     font-size: 25px;
     font-weight: bolder;
 }
 
 .address-detail, .phone, .email {
-    color: #dfe2e3;
+    color: var(--gray);
     padding-top: 10px;
     font-weight: bold;
     font-size: 16px;
@@ -40,10 +40,10 @@
 }
 
 .follow-me-icon svg path {
-    fill: #e9e9e9;
+    fill: var(--white);
     transition: fill 0.3s;
 }
 
 .follow-me-icon:hover svg path{
-    fill: #0A66C2;
+    fill: var(--yellow);
 }

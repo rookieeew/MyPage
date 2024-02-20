@@ -1,8 +1,9 @@
 import './EducationTitle.css'
-function EducationTitle(){
+
+function EducationTitle() {
     return (
         <div className={"education-title"}>
-            <p>My Education</p>
+            <p>My <span style={{color: "#f7a00b"}}>Education</span></p>
         </div>
     )
 }

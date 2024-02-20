@@ -2,7 +2,7 @@
 .button-18 {
     align-items: center;
     padding: 18px 20px;
-    background-color: #0A66C2;
+    background-color: var(--yellow);
     /*background-color: transparent;*/
     border: 1px;
     border-radius: 100px;
@@ -30,7 +30,7 @@
 
 .button-18:hover {
     /*background-color: #74c898;*/
-    background-color: #16437E;
+    background-color: var(--dark-yellow);
     color: #ffffff;
 }
 

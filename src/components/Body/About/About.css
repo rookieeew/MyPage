@@ -1,38 +1,41 @@
 .about {
-    background-color: #27292d;
-    color: #e9e9e9;
-    height: 800px;
+    display: flex;
+    align-items: center; /* Vertical center alignment */
+    flex-direction: column;
+    background-color: var(--black);
+    color: var(--white);
+    height: 1000px;
 }
 
 .about-title {
-    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    min-width: 1000px;
 }
 
 .about-title h1 {
     font-size: 45px;
     padding-top: 130px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
     margin: 0;
 }
 
 .about-title p {
-    opacity: 0.1;
+    opacity: 0.15;
     font-size: 150px;
     font-family: sans-serif;
     font-weight: bolder;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    top: 70px;
-    left: 0;
-    right: 0;
-    text-align: center;
+    margin: 0;
+    min-width: 700px;
 }
 
+.Portrait {
+    flex: 0 0 auto;
+}
+
+
 #add-line {
-    border-bottom: 3px solid #0A66C2;
+    border-bottom: 3px solid var(--dark-yellow);
     padding-bottom: 2px;
 }
 
@@ -44,7 +47,7 @@
 }
 
 #description {
-
+    min-width: 600px;
     width: 40%;
 }
 
@@ -53,6 +56,7 @@
 }
 
 #info-form ul {
+    min-width: 330px;
     list-style-type: none;
     padding: 0;
 }
@@ -66,7 +70,7 @@
     display: block;
     width: 100%;
     height: 1px;
-    background-color: #ccc;
+    background-color: var(--white);
     margin-top: 5px;
 }
 
@@ -79,43 +83,44 @@
 
 #description h2 {
     font-family: sans-serif;
-    color: #ffffff;
+    color: var(--white);
     font-size: 30px;
 }
 
 #description p {
     font-family: sans-serif;
-    color: #98999b;
+    color: var(--gray);
     font-weight: 550;
 }
 
 #description h2 span {
-    color: #0A66C2;
+    color: var(--dark-yellow);
 }
 
 .key {
     font-family: sans-serif;
-    color: #ffffff;
+    color: var(--white);
     font-weight: bolder;
     font-size: 19px;
 }
 
 .value {
     font-family: sans-serif;
-    color: #e9e9e9;
+    color: var(--dark-yellow);
     font-weight: bold;
 
 }
 
 /* CSS */
 #download-btn, #view-btn {
+    min-width: 145px;
     align-items: center;
-    background-color: #0A66C2;
+    background-color: var(--yellow);
     /*background-color: transparent;*/
     border: 1px;
     border-radius: 100px;
     box-sizing: border-box;
-    color: #ffffff;
+    color: var(--black);
     cursor: pointer;
     display: inline-flex;
     font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -124,7 +129,6 @@
     line-height: 20px;
     max-width: 480px;
     min-height: 40px;
-    min-width: 0;
     overflow: hidden;
     padding: 0 20px;
     text-align: center;
@@ -138,20 +142,7 @@
 
 #download-btn:hover,
 #view-btn:hover {
-    background-color: #16437E;
-    color: #ffffff;
+    background-color: var(--dark-yellow);
+    color: var(--black);
 }
 
-#download-btn:active,
-#view-btn:active {
-    /*background: #74c898;*/
-    background: #09223b;
-    color: rgb(255, 255, 255, .7);
-}
-
-#download-btn:disabled,
-#view-btn:disabled {
-    cursor: not-allowed;
-    background: rgba(0, 0, 0, .08);
-    color: rgba(0, 0, 0, .3);
-}

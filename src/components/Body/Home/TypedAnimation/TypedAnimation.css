@@ -8,5 +8,5 @@
 
 .typedAnimationContent {
     text-align: center;
-    color: #ffffff;
+    color: var(--black);
 }

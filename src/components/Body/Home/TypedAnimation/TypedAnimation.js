@@ -18,7 +18,7 @@ function TypedAnimation() {
                     showCursor={true}
                 />
                 <br/>
-                <a style={{fontSize: '25px', color: '#e9e9e9'}}>based in Dublin, Ireland.</a>
+                <a style={{fontSize: '25px', color: '#403d39'}}>based in Dublin, Ireland.</a>
                 <br/>
                 <HireButton/>
             </h1>

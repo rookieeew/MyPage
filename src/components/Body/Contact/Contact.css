@@ -1,6 +1,6 @@
 .contact {
     height: 700px;
-    background-color:  #27292d;
+    background-color:  var(--black);
 }
 
 .contact-content {

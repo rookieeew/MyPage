@@ -1,27 +1,12 @@
-.education-contents {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    width: 100%;
-    font-family: sans-serif;
-}
-
 .education-content {
-    background-color: #181b1e;
+    background-color: var(--black);
     border-radius: 10px;
     flex-direction: column;
     width: 80%;
     display: flex;
     gap: 10px;
     padding: 15px;
-    height: 200px;
-}
-
-p {
-    margin: unset;
-    padding: unset;
+    height: 300px;
 }
 
 .education-content-year {
@@ -29,36 +14,100 @@ p {
     width: 20%;
     padding: 5px 4px;
     text-align: center;
-    background-color: red;
+    background-color: var(--yellow);
     border-radius: 10px;
     font-size: 16px;
     font-weight: 600;
-    color: #e9e9e9;
+    color: var(--black);
+    min-width: 200px;
 }
 
-.education-content-month{
+.education-content-month {
     font-size: 14px;
 }
 
 .education-content-major {
     font-size: 22px;
     font-weight: bolder;
-    color: #e9e9e9;
+    color: var(--white);
 }
 
 .education-content-college {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bolder;
-    color: #2083e6;
+    color: var(--yellow);
+
 }
 
 .education-content-college:hover {
-    color: #4898e8;
+    color: var(--dark-yellow);
 }
 
 .education-content-details {
     margin-top: 5px;
     font-size: 15px;
-    color: grey;
+    color: var(--white);
     font-weight: bold;
+}
+
+#progress {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    transform: rotate(-90deg);
+}
+
+circle {
+    stroke-dashoffset: 0;
+    stroke-width: 15%;
+    fill: none;
+}
+
+.bg {
+    stroke: var(--black);
+    opacity: 0.3;
+}
+
+#progress .indicator {
+    stroke: var(--dark-yellow);
+}
+
+.education-contents {
+    display: flex;
+    list-style: none;
+    overflow-x: scroll;
+    padding: 20px 0;
+    flex: 0 0 600px;
+    margin: 0 auto;
+    width: 800px;
+}
+
+::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    background: white;
+    -webkit-border-radius: 1ex;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--dark-yellow);
+    -webkit-border-radius: 1ex;
+}
+
+::-webkit-scrollbar-corner {
+    background: var(--black);
+}
+
+.education-contents li {
+    flex: 0 0 200px;
+    background: var(--black);
+    margin: 0 20px 0 0;
+}
+
+.education-content {
+    min-width: 780px;
+}
+
+.education-contents li:last-of-type {
+    margin: 0;
 }

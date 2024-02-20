@@ -1,9 +1,8 @@
 .experience-title {
     display: flex;
     justify-content: center;
-    padding-bottom: 30px;
     font-size: 30px;
     font-family: sans-serif;
     font-weight: bolder;
-    color: #e9e9e9;
+    color: var(--black);
 }

@@ -1,13 +1,17 @@
 import './Home.css'
-import TypedAnimation from "./TypedAnimation/TypedAnimation";
 import DownButton from "./DownButton/DownButton";
+import TypedAnimation from "./TypedAnimation/TypedAnimation";
+import Section from "../../InViewSection/Section";
 
 function Home() {
     return (
-        <div className={"home"} id={"home"}>
-            <TypedAnimation/>
-            <DownButton/>
-        </div>
+        <Section>
+            <div className={"home"} id={"home"}>
+                <TypedAnimation/>
+                <DownButton/>
+            </div>
+        </Section>
+
     );
 }
 

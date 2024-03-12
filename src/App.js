@@ -6,6 +6,8 @@ import Resume from "./components/Body/Resume/Resume";
 import Footer from "./components/Footer/Footer";
 import Contact from "./components/Body/Contact/Contact";
 import 'normalize.css';
+import Navigation from "./components/SideBar/Navigation";
+import YourComponent from "./components/SideBar/Navigation";
 
 function App() {
     return (
